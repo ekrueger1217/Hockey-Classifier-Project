@@ -17,7 +17,7 @@ In building this model, we used data from a professional hockey database which c
 The resulting dataframe used in building and evaluating this model contains 4,722 rows and 41 columns with biographical player information (such as birth country, height, and weight) and career statistics (such as avg. points per season and career +/-). We excluded anyone who retired after 2007, as players must be out of the league for at least three years to be hall of fame eligible. We also excluded goaltenders, as they are evaluated on different statistics and should be modeled seperately.
 
 ## Modeling
-In building our hall of fame predictor model, we began with a baseline logistic regression before engaging in hyperparamter tuning. The primary hyperparameter we were concerned with was penalty, and below we compare our baseline model to a l2 regularized iteration and a l1 regularization iteration. We used precision as our evaluation metric, as we view hall of fame as a highly exclusive award and therefore, want to limit the number of false positives our model produces.
+In building our hall of fame predictor model, we began with a baseline logistic regression before engaging in hyperparameter tuning. The primary hyperparameter we were concerned with was penalty, and below we compare our baseline model to a l2 regularized iteration and a l1 regularized iteration. We used precision as our evaluation metric, as we view hall of fame as a highly exclusive award and therefore, want to limit the number of false positives our model produces.
 
 ![graph1](./images/model_comparison.png)
 
@@ -46,7 +46,7 @@ Additional Considerations/Next Steps:
 - Develop a modified version of this model to assess current players’ potential when contemplating trades or evaluating players in free agency
 
 ## Additional Materials
-Please review our full analysis in our [Jupyter Notebook](./Hockey-Classifier-Project) and our [Presentation](./Hockey-Classifier-Presentation) 
+Please review our full analysis in our [Jupyter Notebook](./Hockey-Classifier-Project.ipynb) and our [Presentation](./Hockey-Classifier-Presentation.pdf) 
 
 
 
